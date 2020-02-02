@@ -24,9 +24,7 @@ const Description = styled.div`
 const StuffName = styled.h3`
 margin: 0 0 12px 0;
 padding: 0;
-
 `
-
 const MoreStuffName = styled.p`
   margin: 0
 `
