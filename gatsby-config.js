@@ -1,16 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: `nomad cats`,
+    title: `meows your day?`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@vix`,
     socials: [
       {
-        name: 'Twitter',
-        url: 'https://twitter.com/uprootingourlives'
+        name: `Twitter`,
+        url: `https://twitter.com/uprootingourlives`
       },
       {
-        name: 'Github',
+        name: `Github`,
         url: `https://github.com/vixdug`
+      }
+    ],
+    menuLinks: [
+      {
+        name: 'Ramen',
+        link: '/ramen'
+      },
+      {
+        name: 'Page 2',
+        link: '/page-2'
+      },
+      {
+        name: 'Blog',
+        link: '/blog'
       }
     ]
   },
@@ -43,6 +57,8 @@ module.exports = {
       basePath: '/blog'
     },
    }
+   `gatsby-plugin-emotion`
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
